@@ -36,7 +36,7 @@ def main():
             
         if directory not in directories:
             if directory in ["백준", "프로그래머스"]:
-                content += "## 📚 {}\n".github/workflows/logo.png
+                content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
                 content += "| 번호 | 링크 |\n"
