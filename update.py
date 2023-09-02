@@ -56,12 +56,12 @@ def main():
             if category not in solveds:
                 number = category.split('.')[0]
                 name = category.split('.')[1]
-                content += "`printf(\"Problem: {}. {}\")` []({})\n".format(number, name, parse.quote(os.path.join(root, file)))
+                content += "`printf(\"Problem: {}. {}\")` [chr(0x1F517)]({})\n\n".format(number, name, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
                 print("category : " + category)
               
     total = bronze + silver + gold + platinum + diamond + ruby
-    readme += "```C\nprintf(\"Total: {}\");\n```\n##\n\n```C\nprintf(\"Bronze: {}\n\");\nprintf(\"Silver: {}\n\");\nprintf(\"Gold: {}\n\");\nprintf(\"Platinum: {}\n\");\nprintf(\"Diamond: {}\n\");\nprintf(\"Ruby: {}\n\");\n```\n##\n\n```C\nprintf(\"Problem Lists\");\n```\n##\n".format(total, bronze, silver, gold, platinum, diamond, ruby)
+    readme += "```C\nprintf(\"Total: {}\");\n```\n###\n\n```C\nprintf(\"Bronze: {}\");\nprintf(\"Silver: {}\");\nprintf(\"Gold: {}\");\nprintf(\"Platinum: {}\");\nprintf(\"Diamond: {}\");\nprintf(\"Ruby: {}\");\n```\n###\n\n```C\nprintf(\"Problem Lists\");\n```\n##\n".format(total, bronze, silver, gold, platinum, diamond, ruby)
     
     readme += content
     
