@@ -56,7 +56,7 @@ def main():
             if category not in solveds:
                 number = category.split('.')[0]
                 name = category.split('.')[1]
-                content += "`printf(\"Problem: {}. {}\")` [chr(0x1F517)]({})\n\n".format(number, name, parse.quote(os.path.join(root, file)))
+                content += "`printf(\"Problem: {}. {}\")` [\U0001F517]({})\n\n".format(number, name, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
                 print("category : " + category)
               
