@@ -3,13 +3,7 @@
 import os
 from urllib import parse
 
-HEADER = "
-```C
-printf("Baekjoon 💻");
-```
-##
-  
-"
+HEADER = "```C\nprintf("Baekjoon 💻");\n```\n##\n"
 
 def main():
     readme = ""
@@ -67,29 +61,8 @@ def main():
                 print("category : " + category)
               
     total = bronze + silver + gold + platinum + diamond + ruby
-    readme += "
-    ```C
-    printf("Total: {}");
-    ```
-    ##
-
-    ```C
-    printf("Bronze: {}\n");
-    printf("Silver: {}\n");
-    printf("Gold: {}\n");
-    printf("Platinum: {}\n");
-    printf("Diamond: {}\n");
-    printf("Ruby: {}\n");
-    ```
-    ##
-
+    readme += "```C\nprintf("Total: {}");\n```\n##\n\n```C\nprintf("Bronze: {}\n");\nprintf("Silver: {}\n");\nprintf("Gold: {}\n");\nprintf("Platinum: {}\n");\nprintf("Diamond: {}\n");\nprintf("Ruby: {}\n");\n```\n##\n\n```C\nprintf("Problem Lists");\n```\n##\n".format(total, bronze, gold, platinum, diamond, ruby)
     
-    ```C
-    printf("Problem Lists");
-    ```
-    
-    ".format(total, bronze, gold, platinum, diamond, ruby)
-  
     readme += content
     
     with open("README.md", "w") as fd:
