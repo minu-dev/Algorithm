@@ -8,7 +8,7 @@ HEADER = "
 printf("Baekjoon 💻");
 ```
 ##
-
+  
 "
 
 def main():
