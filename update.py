@@ -61,7 +61,7 @@ def main():
                 print("category : " + category)
               
     total = bronze + silver + gold + platinum + diamond + ruby
-    readme += "```C\nprintf(\"Total: {}\");\n```\n##\n\n```C\nprintf(\"Bronze: {}\n\");\nprintf(\"Silver: {}\n\");\nprintf(\"Gold: {}\n\");\nprintf(\"Platinum: {}\n\");\nprintf(\"Diamond: {}\n\");\nprintf(\"Ruby: {}\n\");\n```\n##\n\n```C\nprintf(\"Problem Lists\");\n```\n##\n".format(total, bronze, gold, platinum, diamond, ruby)
+    readme += "```C\nprintf(\"Total: {}\");\n```\n##\n\n```C\nprintf(\"Bronze: {}\n\");\nprintf(\"Silver: {}\n\");\nprintf(\"Gold: {}\n\");\nprintf(\"Platinum: {}\n\");\nprintf(\"Diamond: {}\n\");\nprintf(\"Ruby: {}\n\");\n```\n##\n\n```C\nprintf(\"Problem Lists\");\n```\n##\n".format(total, bronze, silver, gold, platinum, diamond, ruby)
     
     readme += content
     
