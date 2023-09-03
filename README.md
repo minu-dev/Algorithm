@@ -23,7 +23,7 @@ printf("Problem Lists");
 ```
 ##
 | No. | Problem | Link |
-|:-:|:-|:-:|
+|:-:|:-:|:-:|
 | 1000. |  A＋B | [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.cc) |
 | 1001. |  A－B | [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/README.md) |
 | 10171. |  고양이 | [🔗](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/%EA%B3%A0%EC%96%91%EC%9D%B4.cc) |
