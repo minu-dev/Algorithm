@@ -3,17 +3,19 @@ printf("Baekjoon");
 ```
 ##
 ```C
-printf("Total: 35");
+static int total = 35;
 ```
 ###
 
 ```C
-printf("Bronze: 30");
-printf("Silver: 5");
-printf("Gold: 0");
-printf("Platinum: 0");
-printf("Diamond: 0");
-printf("Ruby: 0");
+enum {
+    BRONZE = 30,
+    SILVER = 5,
+    GOLD = 0,
+    PLATINUM = 0,
+    DIAMOND = 0,
+    RUBY = 0
+};
 ```
 ###
 
