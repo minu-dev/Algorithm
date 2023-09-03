@@ -44,7 +44,6 @@ def main():
                 name = category.split('.')[1]
                 content += "`{}. {}` [\U0001F517]({})\n\n".format(number, name, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
-                print("category : " + category)
 
     for value in tier.values():
         total += value
@@ -63,8 +62,6 @@ def main():
                "    printf(problems);\n" + 
                "}}\n"
                "```\n" + content)
-    
-    readme += content
     
     with open("README.md", "w") as fd:
         fd.write(readme)
