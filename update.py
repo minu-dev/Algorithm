@@ -56,12 +56,12 @@ def main():
             if category not in solveds:
                 number = category.split('.')[0]
                 name = category.split('.')[1]
-                content += "{} | {} | [\U0001F517]({}) \n".format(number, name, parse.quote(os.path.join(root, file)))
+                content += ":{}: | {} | :[\U0001F517]({}): \n".format(number, name, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
                 print("category : " + category)
               
     total = bronze + silver + gold + platinum + diamond + ruby
-    readme += "```C\nstatic int total = {};\n```\n###\n\n```C\nenum {{\n    BRONZE = {},\n    SILVER = {},\n    GOLD = {},\n    PLATINUM = {},\n    DIAMOND = {},\n    RUBY = {}\n}};\n```\n###\n\n```C\n##\nprintf(\"Problem Lists\");\n```\n##\nNo. | Problem | Link\n-|-|-\n".format(total, bronze, silver, gold, platinum, diamond, ruby)
+    readme += "```C\nstatic int total = {};\n```\n##\n\n```C\nenum {{\n    BRONZE = {},\n    SILVER = {},\n    GOLD = {},\n    PLATINUM = {},\n    DIAMOND = {},\n    RUBY = {}\n}};\n```\n##\n```C\nprintf(\"Problem Lists\");\n```\n##\n:No.: | Problem | :Link: \n-|-|-\n".format(total, bronze, silver, gold, platinum, diamond, ruby)
     
     readme += content
     
