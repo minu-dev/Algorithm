@@ -42,7 +42,7 @@ def main():
             if category not in solveds:
                 number = category.split('.')[0]
                 name = category.split('.')[1]
-                content += "| {}. | {} | [\U0001F517]({}) |\n".format(number, name, parse.quote(os.path.join(root, file)))
+                content += "{}. {} [\U0001F517]({})\n".format(number, name, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
                 print("category : " + category)
 
@@ -50,28 +50,18 @@ def main():
         total += value
         
     readme += ("```C\n" + 
-               "printf(\"Baekjoon\");\n" + 
-               "```\n" + 
-               "##\n" +
-               "```C\n" + 
-               "static int total = {};\n".format(total) + 
+               "void Baekjoon() {{\n\n" + 
+               "    static int total = {};\n\n".format(total) + 
+               "    enum {{\n" + 
+               "        BRONZE = {},\n".format(tier["Bronze"]) + 
+               "        SILVER = {},\n".format(tier["Silver"]) +
+               "        GOLD = {},\n".format(tier["Gold"]) + 
+               "        PLATINUM = {},\n".format(tier["Platinum"]) + 
+               "        DIAMOND = {},\n".format(tier["Diamond"]) + 
+               "        RUBY = {}\n}};\n\n".format(tier["Ruby"]) + 
+               "    printf(problems);\n" + 
                "```\n" +
-               "##\n\n" + 
-               "```C\n" + 
-               "enum {{\n" + 
-               "    BRONZE = {},\n".format(tier["Bronze"]) + 
-               "    SILVER = {},\n".format(tier["Silver"]) +
-               "    GOLD = {},\n".format(tier["Gold"]) + 
-               "    PLATINUM = {},\n".format(tier["Platinum"]) + 
-               "    DIAMOND = {},\n".format(tier["Diamond"]) + 
-               "    RUBY = {}\n}};\n".format(tier["Ruby"]) + 
-               "```\n" + 
-               "##\n" + 
-               "```C\n" + 
-               "printf(problems);\n" + 
-               "```\n" + 
-               "| No. | Problem | Link |\n" + 
-               "|:---:|:--------|:----:|\n")
+               "`" + content + "`")
     
     readme += content
     
