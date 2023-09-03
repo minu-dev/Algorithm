@@ -42,7 +42,7 @@ def main():
             if category not in solveds:
                 number = category.split('.')[0]
                 name = category.split('.')[1]
-                content += "`{}. {}` [\U0001F517]({})\n".format(number, name, parse.quote(os.path.join(root, file)))
+                content += "`{}. {}` [\U0001F517]({})\n\n".format(number, name, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
                 print("category : " + category)
 
@@ -58,9 +58,11 @@ def main():
                "        GOLD = {},\n".format(tier["Gold"]) + 
                "        PLATINUM = {},\n".format(tier["Platinum"]) + 
                "        DIAMOND = {},\n".format(tier["Diamond"]) + 
-               "        RUBY = {}\n}};\n\n".format(tier["Ruby"]) + 
+               "        RUBY = {}\n".format(tier["Ruby"]) + 
+               "    }};\n\n" + 
                "    printf(problems);\n" + 
-               "```\n" + content + ">")
+               "}}\n"
+               "```\n" + content)
     
     readme += content
     
