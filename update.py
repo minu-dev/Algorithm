@@ -1,24 +1,24 @@
-#!/usr/bin/env python
-
 import os
 from urllib import parse
 
-HEADER = "```C\nprintf(\"Baekjoon\");\n```\n##\n"
+HEADER = "# Baekjoon\n"    # Enter the title you want
+DESC = "## This is automatic README.md update\n"    # Enter the description you want
+TOTAL_TABLE_HEADER = "| Total |\n|:-----:|\n"
+TIER_TABLE_HEADER = "| Bronze | Silver | Gold | Platinum | Diamond | Ruby |\n|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|\n"
+PROBLEM_TABLE_HEADER = "| No. | Problem | Link |\n|:-----:|:-----:|:-----:|\n"
 
 def main():
     readme = ""
     readme += HEADER
-    content = ""
+    readme += DESC
+  
+    problem_content = ""
     
-    directories = [];
-    solveds = [];
+    directories = []
+    solved = []
 
-    bronze = 0
-    silver = 0
-    gold = 0
-    platinum = 0
-    diamond = 0
-    ruby = 0
+    total = 0
+    tier = {"Bronze": 0, "Silver": 0, "Gold": 0, "Platinum": 0, "Diamond": 0, "Ruby": 0}
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
@@ -39,31 +39,25 @@ def main():
         
         if directory == '.':
             continue
-        elif directory == "Bronze":
-            bronze += 1
-        elif directory == "Silver":
-            silver += 1
-        elif directory == "Gold":
-            gold += 1
-        elif directory == "Platinum":
-            platinum += 1
-        elif directory == "Diamond":
-            diamond += 1
-        elif directory == "Ruby":
-            ruby += 1
+        else:
+            try:
+                tier[directory] += 1
+            except:
+                pass
 
         for file in files:
-            if category not in solveds:
+            if category not in solved:
                 number = category.split('.')[0]
                 name = category.split('.')[1]
-                content += "| {}. | {} | [\U0001F517]({}) |\n".format(number, name, parse.quote(os.path.join(root, file)))
-                solveds.append(category)
-                print("category : " + category)
+                problem_content += "| {}. | {} | [\U0001F517]({}) |\n".format(number, name, parse.quote(os.path.join(root, file)))
+                solved.append(category)
               
-    total = bronze + silver + gold + platinum + diamond + ruby
-    readme += "```C\nstatic int total = {};\n```\n##\n\n```C\nenum {{\n    BRONZE = {},\n    SILVER = {},\n    GOLD = {},\n    PLATINUM = {},\n    DIAMOND = {},\n    RUBY = {}\n}};\n```\n##\n```C\nprintf(\"Problem Lists\");\n```\n##\n| No. | Problem | Link |\n|:-:|:-:|:-:|\n".format(total, bronze, silver, gold, platinum, diamond, ruby)
-    
-    readme += content
+    for value in tier.values():
+        total += value
+
+    readme += (TOTAL_TABLE_HEADER + "| {} |\n\n".format(total) + TIER_TABLE_HEADER +
+               "| {} | {} | {} | {} | {} | {} |\n\n".format(tier['Bronze'], tier['Silver'], tier['Gold'], tier['Platinum'], tier['Diamond'], tier['Ruby']) +
+               PROBLEM_TABLE_HEADER + problem_content)
     
     with open("README.md", "w") as fd:
         fd.write(readme)
