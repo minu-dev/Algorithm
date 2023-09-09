@@ -49,18 +49,18 @@ def main():
         total += value
         
     readme += ("```C\n" + 
-               "void Baekjoon() {{\n\n" + 
+               "void Baekjoon() {\n\n" + 
                "    static int total = {};\n\n".format(total) + 
-               "    enum {{\n" + 
+               "    enum {\n" + 
                "        BRONZE = {},\n".format(tier["Bronze"]) + 
                "        SILVER = {},\n".format(tier["Silver"]) +
                "        GOLD = {},\n".format(tier["Gold"]) + 
                "        PLATINUM = {},\n".format(tier["Platinum"]) + 
                "        DIAMOND = {},\n".format(tier["Diamond"]) + 
                "        RUBY = {}\n".format(tier["Ruby"]) + 
-               "    }};\n\n" + 
+               "    };\n\n" + 
                "    printf(problems);\n" + 
-               "}}\n"
+               "}\n"
                "```\n" + content)
     
     with open("README.md", "w") as fd:
