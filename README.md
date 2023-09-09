@@ -1,19 +1,19 @@
 ```C
-void Baekjoon() {{
+void Baekjoon() {
 
     static int total = 37;
 
-    enum {{
+    enum {
         BRONZE = 30,
         SILVER = 7,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
         RUBY = 0
-    }};
+    };
 
     printf(problems);
-}}
+}
 ```
 `1000.  A＋B` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.cc)
 
