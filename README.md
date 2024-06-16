@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 43;
+    static int total = 44;
 
     enum {
         BRONZE = 33,
-        SILVER = 10,
+        SILVER = 11,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -100,4 +100,6 @@ void Baekjoon() {
 `2108.  통계학` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2108.%E2%80%85%ED%86%B5%EA%B3%84%ED%95%99/README.md)
 
 `2164.  카드2` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2164.%E2%80%85%EC%B9%B4%EB%93%9C2/README.md)
+
+`2751.  수 정렬하기 2` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2751.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%E2%80%852/README.md)
 
