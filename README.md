@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 45;
+    static int total = 46;
 
     enum {
         BRONZE = 33,
-        SILVER = 12,
+        SILVER = 13,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -82,6 +82,8 @@ void Baekjoon() {
 `8958.  OX퀴즈` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88/OX%ED%80%B4%EC%A6%88.cc)
 
 `1018.  체스판 다시 칠하기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1018.%E2%80%85%EC%B2%B4%EC%8A%A4%ED%8C%90%E2%80%85%EB%8B%A4%EC%8B%9C%E2%80%85%EC%B9%A0%ED%95%98%EA%B8%B0/README.md)
+
+`10814.  나이순 정렬` [🔗](./%EB%B0%B1%EC%A4%80/Silver/10814.%E2%80%85%EB%82%98%EC%9D%B4%EC%88%9C%E2%80%85%EC%A0%95%EB%A0%AC/README.md)
 
 `1436.  영화감독 숌` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1436.%E2%80%85%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C/%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C.cc)
 
