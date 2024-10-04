@@ -3,9 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 #define MAX_STACK_SIZE 100000
-//문제 특성상 fgets로 입력 받아야 하는데,
-// fgets는 저장 시 개행 문자 + 널 문자를 뒤에 붙여서 저장함.
-//따라서 스택의 최대 크기를 102로 설정해 주어야함.
 
 int stack[MAX_STACK_SIZE] = {
     0,
