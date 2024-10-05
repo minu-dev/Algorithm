@@ -1,10 +1,10 @@
 ```C
 void Baekjoon() {
 
-    static int total = 68;
+    static int total = 69;
 
     enum {
-        BRONZE = 44,
+        BRONZE = 45,
         SILVER = 24,
         GOLD = 0,
         PLATINUM = 0,
@@ -18,6 +18,8 @@ void Baekjoon() {
 `1000.  A＋B` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)
 
 `1001.  A－B` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/A%EF%BC%8DB.cc)
+
+`1008.  A／B` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1008.%E2%80%85A%EF%BC%8FB/A%EF%BC%8FB.cc)
 
 `10171.  고양이` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/README.md)
 
