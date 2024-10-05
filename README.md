@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 67;
+    static int total = 68;
 
     enum {
         BRONZE = 44,
-        SILVER = 23,
+        SILVER = 24,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -126,6 +126,8 @@ void Baekjoon() {
 `1654.  랜선 자르기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1654.%E2%80%85%EB%9E%9C%EC%84%A0%E2%80%85%EC%9E%90%EB%A5%B4%EA%B8%B0/README.md)
 
 `1676.  팩토리얼 0의 개수` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1676.%E2%80%85%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC%E2%80%850%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC%E2%80%850%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.cc)
+
+`18110.  solved．ac` [🔗](./%EB%B0%B1%EC%A4%80/Silver/18110.%E2%80%85solved%EF%BC%8Eac/README.md)
 
 `1874.  스택 수열` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1874.%E2%80%85%EC%8A%A4%ED%83%9D%E2%80%85%EC%88%98%EC%97%B4/README.md)
 
