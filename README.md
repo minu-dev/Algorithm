@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 66;
+    static int total = 67;
 
     enum {
         BRONZE = 44,
-        SILVER = 22,
+        SILVER = 23,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -118,6 +118,8 @@ void Baekjoon() {
 `11650.  좌표 정렬하기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/11650.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/README.md)
 
 `11651.  좌표 정렬하기 2` [🔗](./%EB%B0%B1%EC%A4%80/Silver/11651.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%E2%80%852/%EC%A2%8C%ED%91%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%E2%80%852.cc)
+
+`11866.  요세푸스 문제 0` [🔗](./%EB%B0%B1%EC%A4%80/Silver/11866.%E2%80%85%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850/%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850.cc)
 
 `1436.  영화감독 숌` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1436.%E2%80%85%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C/%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C.cc)
 
