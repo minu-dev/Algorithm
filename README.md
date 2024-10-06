@@ -1,10 +1,10 @@
 ```C
 void Baekjoon() {
 
-    static int total = 85;
+    static int total = 86;
 
     enum {
-        BRONZE = 55,
+        BRONZE = 56,
         SILVER = 30,
         GOLD = 0,
         PLATINUM = 0,
@@ -30,6 +30,8 @@ void Baekjoon() {
 `10430.  나머지` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/10430.%E2%80%85%EB%82%98%EB%A8%B8%EC%A7%80/README.md)
 
 `10809.  알파벳 찾기` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/10809.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)
+
+`10818.  최소， 최대` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/10818.%E2%80%85%EC%B5%9C%EC%86%8C%EF%BC%8C%E2%80%85%EC%B5%9C%EB%8C%80/README.md)
 
 `10871.  X보다 작은 수` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/10871.%E2%80%85X%EB%B3%B4%EB%8B%A4%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EC%88%98/README.md)
 
