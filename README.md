@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 97;
+    static int total = 98;
 
     enum {
         BRONZE = 66,
-        SILVER = 31,
+        SILVER = 32,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -182,6 +182,8 @@ void Baekjoon() {
 `1654.  랜선 자르기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1654.%E2%80%85%EB%9E%9C%EC%84%A0%E2%80%85%EC%9E%90%EB%A5%B4%EA%B8%B0/README.md)
 
 `1676.  팩토리얼 0의 개수` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1676.%E2%80%85%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC%E2%80%850%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC%E2%80%850%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.cc)
+
+`17219.  비밀번호 찾기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/17219.%E2%80%85%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%E2%80%85%EC%B0%BE%EA%B8%B0/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%E2%80%85%EC%B0%BE%EA%B8%B0.cc)
 
 `1764.  듣보잡` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/README.md)
 
