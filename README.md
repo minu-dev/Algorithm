@@ -1,10 +1,10 @@
 ```C
 void Baekjoon() {
 
-    static int total = 79;
+    static int total = 80;
 
     enum {
-        BRONZE = 49,
+        BRONZE = 50,
         SILVER = 30,
         GOLD = 0,
         PLATINUM = 0,
@@ -82,6 +82,8 @@ void Baekjoon() {
 `2562.  최댓값` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/2562.%E2%80%85%EC%B5%9C%EB%8C%93%EA%B0%92/%EC%B5%9C%EB%8C%93%EA%B0%92.cc)
 
 `2577.  숫자의 개수` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/2577.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.cc)
+
+`2588.  곱셈` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/2588.%E2%80%85%EA%B3%B1%EC%85%88/%EA%B3%B1%EC%85%88.cc)
 
 `2609.  최대공약수와 최소공배수` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/2609.%E2%80%85%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%E2%80%85%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%E2%80%85%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98.cc)
 
