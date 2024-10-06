@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 73;
+    static int total = 74;
 
     enum {
         BRONZE = 47,
-        SILVER = 26,
+        SILVER = 27,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -132,6 +132,8 @@ void Baekjoon() {
 `11866.  요세푸스 문제 0` [🔗](./%EB%B0%B1%EC%A4%80/Silver/11866.%E2%80%85%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850/%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850.cc)
 
 `1436.  영화감독 숌` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1436.%E2%80%85%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C/%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C.cc)
+
+`1620.  나는야 포켓몬 마스터 이다솜` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1620.%E2%80%85%EB%82%98%EB%8A%94%EC%95%BC%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85%EB%A7%88%EC%8A%A4%ED%84%B0%E2%80%85%EC%9D%B4%EB%8B%A4%EC%86%9C/%EB%82%98%EB%8A%94%EC%95%BC%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85%EB%A7%88%EC%8A%A4%ED%84%B0%E2%80%85%EC%9D%B4%EB%8B%A4%EC%86%9C.cc)
 
 `1654.  랜선 자르기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1654.%E2%80%85%EB%9E%9C%EC%84%A0%E2%80%85%EC%9E%90%EB%A5%B4%EA%B8%B0/README.md)
 
