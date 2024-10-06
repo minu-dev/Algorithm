@@ -1,10 +1,10 @@
 ```C
 void Baekjoon() {
 
-    static int total = 94;
+    static int total = 95;
 
     enum {
-        BRONZE = 64,
+        BRONZE = 65,
         SILVER = 30,
         GOLD = 0,
         PLATINUM = 0,
@@ -76,6 +76,8 @@ void Baekjoon() {
 `15552.  빠른 A＋B` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/15552.%E2%80%85%EB%B9%A0%EB%A5%B8%E2%80%85A%EF%BC%8BB/%EB%B9%A0%EB%A5%B8%E2%80%85A%EF%BC%8BB.cc)
 
 `15829.  Hashing` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/15829.%E2%80%85Hashing/README.md)
+
+`18108.  1998년생인 내가 태국에서는 2541년생？！` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/18108.%E2%80%851998%EB%85%84%EC%83%9D%EC%9D%B8%E2%80%85%EB%82%B4%EA%B0%80%E2%80%85%ED%83%9C%EA%B5%AD%EC%97%90%EC%84%9C%EB%8A%94%E2%80%852541%EB%85%84%EC%83%9D%EF%BC%9F%EF%BC%81/1998%EB%85%84%EC%83%9D%EC%9D%B8%E2%80%85%EB%82%B4%EA%B0%80%E2%80%85%ED%83%9C%EA%B5%AD%EC%97%90%EC%84%9C%EB%8A%94%E2%80%852541%EB%85%84%EC%83%9D%EF%BC%9F%EF%BC%81.cc)
 
 `1978.  소수 찾기` [🔗](./%EB%B0%B1%EC%A4%80/Bronze/1978.%E2%80%85%EC%86%8C%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)
 
