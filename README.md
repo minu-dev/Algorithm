@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 109;
+    static int total = 110;
 
     enum {
         BRONZE = 66,
-        SILVER = 43,
+        SILVER = 44,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -182,6 +182,8 @@ void Baekjoon() {
 `1181.  단어 정렬` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1181.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC/%EB%8B%A8%EC%96%B4%E2%80%85%EC%A0%95%EB%A0%AC.cc)
 
 `11866.  요세푸스 문제 0` [🔗](./%EB%B0%B1%EC%A4%80/Silver/11866.%E2%80%85%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850/%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850.cc)
+
+`1260.  DFS와 BFS` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1260.%E2%80%85DFS%EC%99%80%E2%80%85BFS/README.md)
 
 `1436.  영화감독 숌` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1436.%E2%80%85%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C/%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C.cc)
 
