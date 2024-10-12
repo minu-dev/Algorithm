@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 112;
+    static int total = 113;
 
     enum {
         BRONZE = 66,
-        SILVER = 46,
+        SILVER = 47,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -222,6 +222,8 @@ void Baekjoon() {
 `2579.  계단 오르기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2579.%E2%80%85%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0/%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0.cc)
 
 `2606.  바이러스` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2606.%E2%80%85%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4/%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4%28BFS%29.cc)
+
+`2630.  색종이 만들기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2630.%E2%80%85%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.cc)
 
 `2751.  수 정렬하기 2` [🔗](./%EB%B0%B1%EC%A4%80/Silver/2751.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%E2%80%852/README.md)
 
