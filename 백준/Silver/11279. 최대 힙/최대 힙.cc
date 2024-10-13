@@ -9,7 +9,8 @@ void heapfify(int *heap, int size, int start) {
 
   if (left <= size && heap[max] < heap[left])
     max = left;
-  if (right <= size && heap[max] < heap[right])
+  if (right <= size &&
+      heap[max] < heap[right]) // heap[start] 가 아닌 heap[max] 와 비교해야함
     max = right;
 
   if (max != start) {
