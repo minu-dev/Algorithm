@@ -1,11 +1,11 @@
 ```C
 void Baekjoon() {
 
-    static int total = 118;
+    static int total = 119;
 
     enum {
         BRONZE = 67,
-        SILVER = 51,
+        SILVER = 52,
         GOLD = 0,
         PLATINUM = 0,
         DIAMOND = 0,
@@ -214,6 +214,8 @@ void Baekjoon() {
 `18111.  마인크래프트` [🔗](./%EB%B0%B1%EC%A4%80/Silver/18111.%E2%80%85%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8/%EB%A7%88%EC%9D%B8%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8.cc)
 
 `1874.  스택 수열` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1874.%E2%80%85%EC%8A%A4%ED%83%9D%E2%80%85%EC%88%98%EC%97%B4/README.md)
+
+`18870.  좌표 압축` [🔗](./%EB%B0%B1%EC%A4%80/Silver/18870.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%95%95%EC%B6%95/%EC%A2%8C%ED%91%9C%E2%80%85%EC%95%95%EC%B6%95.cc)
 
 `1920.  수 찾기` [🔗](./%EB%B0%B1%EC%A4%80/Silver/1920.%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)
 
